@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/*imagem de fundo do HTML*/
+.img {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0  ;
+    z-index: -1;
+
+    display: block;
+    background-image: url('https://www.ubatuba.sp.gov.br/wp-content/uploads/sites/2/2016/11/VDP.jpg');
+    width: 1400px;
+    height: 850px;
+
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+*{
+    align-items:center;
+    font-family:'oswald';
+    font-size: 12pt;
+}
+input.username {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 1%;
+    border-radius: 10px;
+}
+/*box branca*/
+.form {
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    left: 34%;
+    top: 11vh;
+    background-color: #FFFFFF;
+    border-radius: 15%;
+    justify-content: center;
+}
+input.email {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 1%;
+    border-radius: 10px;
+    justify-content: center;
+}
+input.cep {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 1%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
